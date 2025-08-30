@@ -52,7 +52,7 @@ const calculateWinner = (squares) => {
 
   for (const [a, b, c] of lines) {
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-      return squares[a]; // Returns 'X' or 'O'
+      return squares[a];
     }
   }
   
@@ -76,10 +76,10 @@ const makeMove = (index) => {
   newBoard[index] = isXNext.value ? 'X' : 'O';
   board.value = newBoard;
   
-  // Check for winner after each move
+  
   winner.value = calculateWinner(newBoard);
   
-  // Only switch turns if there's no winner yet
+
   if (!winner.value) {
     isXNext.value = !isXNext.value;
   }
