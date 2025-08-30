@@ -53,7 +53,7 @@ The classic game that never fails to kill boredom! Bring a friend and play to yo
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Simply head to (url) and start playing!
+Simply head to [this site](https://tictactoe-s2i.netlify.app/) and start playing!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
